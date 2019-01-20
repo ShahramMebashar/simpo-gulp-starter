@@ -19,9 +19,9 @@ Pug is a template engine. [more information](https://pugjs.org/api/getting-start
 gulp-responsive plugin is used to create responsive images, resize and optimize images.
 Transform images to `.jpg` and `.webp`format, with different sizes for html `<picture>` element.
 
-## Live server reload
+## Live server
 
-Browser-Sync is used for live server reloading. You can edit sass, pug, js with live reload.
+Live server reloading. You can edit sass, pug, js with live reload.
 
 ## How to use
 
