@@ -31,6 +31,6 @@ Clone repository and then in cloned folder, In terminal type `npm install` to in
 
 Then:
 
-`npm start` for run live server
+`npm start` for starting the live server.
 
 `npm build` for building assets and images.
