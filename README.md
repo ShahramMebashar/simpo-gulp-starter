@@ -8,7 +8,7 @@ Gulp version 4.x.x is used with new APIs for automating work flow.
 
 ## Sass
 
-If you like sass you can use sass with this starter kit.
+If you like sass you can use sass with this starter kit. [more information](https://sass-lang.com/)
 
 ## Pug
 
@@ -22,3 +22,15 @@ Transform images to `.jpg` and `.webp`format, with different sizes for html `<pi
 ## Live server reload
 
 Browser-Sync is used for live server reloading. You can edit sass, pug, js with live reload.
+
+## How to use
+
+Clone repository and then in cloned folder, In terminal type `npm install` to install all packages locally and then install `gulp-cli` globally:
+
+`npm install -g gulp-cli`
+
+Then:
+
+`npm start` for run live server
+
+`npm build` for building assets and images.
