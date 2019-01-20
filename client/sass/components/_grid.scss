@@ -1,0 +1,47 @@
+.outer {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  zoom: 1;
+}
+.inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  zoom: 1;
+  &::after {
+    content: "";
+    height: 0;
+    display: table;
+    clear: both;
+  }
+}
+.inner-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.read-content {
+  max-width: 632px;
+  margin: 0 auto;
+}
+.content {
+  background: #f9f9f9;
+}
+
+$cols: 12;
+$gutter: 16px;
+$base-col-width: 100% / 12;
+
+@media screen and (min-width: 600px) {
+  @for $i from 1 through $cols {
+    .cols-#{$i} {
+      width: $base-col-width * $i;
+      padding-left: $gutter;
+      padding-right: $gutter;
+      float: left;
+    }
+  }
+}
+
+.widget {
+  background: #f0f0f0;
+}

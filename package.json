@@ -1,0 +1,28 @@
+{
+  "name": "simpo-gulp-starter",
+  "version": "1.0.0",
+  "description": "Simple gulp starter with pug, sass and responsive images",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahram Mebashar",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-responsive": "^2.13.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShahramMebashar/simpo-gulp-starter.git"
+  }
+}
