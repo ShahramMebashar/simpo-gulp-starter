@@ -12,9 +12,13 @@ If you like sass you can use sass with this starter kit.
 
 ## Pug
 
-Pug is a template engine.
+Pug is a template engine. [more information](https://pugjs.org/api/getting-started.html)
 
 ## Responsive Images
 
 gulp-responsive plugin is used to create responsive images, resize and optimize images.
 Transform images to `.jpg` and `.webp`format, with different sizes for html `<picture>` element.
+
+## Live server reload
+
+Browser-Sync is used for live server reloading. You can edit sass, pug, js with live reload.
