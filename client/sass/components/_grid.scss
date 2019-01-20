@@ -19,13 +19,6 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.read-content {
-  max-width: 632px;
-  margin: 0 auto;
-}
-.content {
-  background: #f9f9f9;
-}
 
 $cols: 12;
 $gutter: 16px;
@@ -40,8 +33,4 @@ $base-col-width: 100% / 12;
       float: left;
     }
   }
-}
-
-.widget {
-  background: #f0f0f0;
 }

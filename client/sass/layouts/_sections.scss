@@ -1,0 +1,17 @@
+.doc-section__title {
+  margin-bottom: 0.5rem;
+}
+hr {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  border: none;
+
+  &::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #000;
+  }
+}
