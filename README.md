@@ -17,4 +17,4 @@ Pug is a template engine.
 ## Responsive Images
 
 gulp-responsive plugin is used to create responsive images, resize and optimize images.
-Transform images to `.jpg` and `.webp` with different sizes format for html `<picture>` element with `srcset' attribute.
+Transform images to `.jpg` and `.webp`format, with different sizes for html `<picture>` element with `srcset' attribute.
